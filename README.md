@@ -19,3 +19,11 @@ In contrast, the LightGBM model performed poorly in its baseline configuration, 
 XGBoost emerged as the fastest model to train, with its base implementation completing in just 1.1569 seconds. Despite its computational efficiency, its precision and recall did not match those of the top-performing ensemble models, highlighting a trade-off between training speed and predictive effectiveness.
 
 Overall, the optimized versions of all models outperformed their baseline counterparts, reinforcing the importance of model tuning. The results strongly support the use of ensemble-based approaches—particularly Random Forest and CatBoost—for credit card fraud detection, as they effectively balance computational efficiency with high predictive performance and recall.
+
+## Dataset
+The dataset is not included due to GitHub size limits.
+It can be downloaded as a zip from Kaggle:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+## To Run:
+Please create a directory named ```data``` under project root directory (at the same level as ```images```) and place the downloaded creditcard.zip file under ```data``` folder.
